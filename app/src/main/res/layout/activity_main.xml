@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.checkboxdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cbAndroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android" />
+
+        <CheckBox
+            android:id="@+id/cbIos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ios" />
+
+        <CheckBox
+            android:id="@+id/cbWindows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/windows" />
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/show" />
+    </LinearLayout>
+</LinearLayout>
